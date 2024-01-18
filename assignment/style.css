@@ -1,7 +1,7 @@
 /* Add a background color to the header element */
 
 header {
-    background-color: #581845
+    background-color: grey;
 }
 
 /* Align the h1 containing your name in the center of the header*/
@@ -15,8 +15,10 @@ header h1 {
 /* used a flexbox based on what i learned from https://flexboxfroggy.com/ */
 
 main {
-    background-color: grey;
+    background-color: #581845;
     color: white;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,8 +28,10 @@ main {
 
 main img {
     width: 40%;
-    margin-left: auto;
-    margin-right: auto; 
+    border-radius: 25px;
+    border-color: aliceblue;
+    border-style: dotted;
+    border-width: 10px;
 }
 /* Change the font-family of your list */
 
@@ -39,12 +43,13 @@ main ul {
 /* Make your p tag a different color and italic */
 
 footer {
-    background-color:  #900C3F;
+    background-color:  grey;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 footer p {
-    color: grey;
+    color: #581845;
     font-style: italic;
+    text-align: center;
 }
 
