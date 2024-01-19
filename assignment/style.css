@@ -2,6 +2,7 @@
 
 header {
     background-color: grey;
+    padding: 4px;
 }
 
 /* Align the h1 containing your name in the center of the header*/
@@ -19,6 +20,7 @@ main {
     color: white;
     margin-left: auto;
     margin-right: auto;
+    padding: 55px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -51,5 +53,7 @@ footer p {
     color: #581845;
     font-style: italic;
     text-align: center;
+    padding: 4px;
+    margin-top: 0;
 }
 
